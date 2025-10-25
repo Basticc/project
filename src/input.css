@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary: #222831;
+
+    --color-secondary: #393E46;
+
+    /* terciary */
+  --color-terciary-50:  #e5f6f7;
+  --color-terciary-100: #cceef0;
+  --color-terciary-200: #b2e6e8;
+  --color-terciary-300: #99dee1;
+  --color-terciary-400: #7fd6da;
+  --color-terciary-500: #66cdd2;
+  --color-terciary-600: #4cc5cb;
+  --color-terciary-700: #32bdc3;
+  --color-terciary-800: #19b5bc;
+  --color-terciary-900: #00adb5;
+}

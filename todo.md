@@ -1,5 +1,0 @@
-- APRENDER JS
-- Colores
-- Fondo
-- Secciones
-- ¿compila latex?

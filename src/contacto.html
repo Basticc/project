@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+
+
+
+<body class="
+            flex flex-col
+            min-h-screen
+            bg-gradient-to-br from-white to-terciary-950 w-full">
+            
+            
+            
+<!-- No es la forma mas optima, pero es una prueba inicial -->
+  <header>
+  <nav class="bg-primary px-4 py-3 shadow">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between">
+      
+      <!-- Logo a la izquierda -->
+      <a href="#" class="flex items-center">
+        <img src="./assets/logo_perchance.jpeg" class="mr-3 h-16 sm:h-9 object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-70%" alt="Logo">
+        <span class="text-xl font-semibold text-gray-900 dark:text-white">C y A</span>
+      </a>
+
+      <!-- Menú centrado -->
+      <ul class="hidden lg:flex mx-auto space-x-6 font-medium">
+        <li><a href="./index.html" class="text-gray-300 hover:text-white">Inicio</a></li>
+        <li><a href="./nosotros.html" class="text-gray-300 hover:text-white">Nosotros</a></li>
+        <li><a href="./planes.html" class="text-gray-300 hover:text-white">Planes</a></li>
+        <li><a href="./agenda.html" class="text-gray-300 hover:text-white">Agenda</a></li>
+        <li><a href="./contacto.html" class="text-white hover:underline">Contacto</a></li>
+      </ul>
+
+      <!-- Opcional: espacio a la derecha para balancear -->
+      <div class="w-16"></div>
+    </div>
+  </nav>
+</header>
+
+    
+<main class="flex-grow">
+    <div class="flex justify-center text-4xl mb-4">
+
+       
+        <section class="py-16">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-12">¡Hablemos!</h2>
+
+    <form action="#" method="POST" class="grid gap-6">
+      <div class="relative">
+        <input type="text" id="name" name="name" placeholder=" " 
+               class="peer w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition">
+        <label for="name" class="absolute left-4 top-3 text-gray-400 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:top-0 peer-focus:text-blue-500 peer-focus:text-sm">
+          Nombre
+        </label>
+      </div>
+
+      <div class="relative">
+        <input type="email" id="email" name="email" placeholder=" " 
+               class="peer w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition">
+        <label for="email" class="absolute left-4 top-3 text-gray-400 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:top-0 peer-focus:text-blue-500 peer-focus:text-sm">
+          Correo
+        </label>
+      </div>
+
+      <div class="relative">
+        <textarea id="message" name="message" rows="5" placeholder=" " 
+                  class="peer w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition resize-none"></textarea>
+        <label for="message" class="absolute left-4 top-3 text-gray-400 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-gray-400 peer-placeholder-shown:text-base peer-focus:top-0 peer-focus:text-blue-500 peer-focus:text-sm">
+          Mensaje
+        </label>
+      </div>
+
+      <button type="submit" 
+              class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5">
+        Enviar Mensaje
+      </button>
+    </form>
+  </div>
+</section>
+
+    
+
+
+    </div>
+</main>
+
+       <section class="mt-12 border-t border-gray-400 pt-6">
+  <h2 class="text-center text-2xl font-semibold mb-6">Síguenos en nuestras redes sociales</h2>
+
+  <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+    
+    <!-- WhatsApp -->
+    <a href="https://wa.me/" target="_blank" 
+       class="flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-green-200 via-green-100 to-green-50 text-white rounded-lg hover:scale-105 transition-transform">
+      <span>WhatsApp</span>
+      <svg width="24" height="24" role="img" aria-labelledby="icon-whatsapp-title">
+        <use xlink:href="./assets/icons.svg#icon-whatsapp"></use>
+      </svg>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://instagram.com/" target="_blank" 
+       class="flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-yellow-200 via-pink-300 to-purple-400 text-white rounded-lg hover:scale-105 transition-transform">
+      <span>Instagram</span>
+      <svg width="24" height="24" role="img" aria-labelledby="icon-instagram-title">
+        <use xlink:href="./assets/icons.svg#icon-instagram"></use>
+      </svg>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com/" target="_blank" 
+       class="flex items-center gap-1 px-4 py-2 bg-gradient-to-br from-blue-200 via-blue-600 to-blue-700 text-white rounded-lg hover:scale-105 transition-all">
+      <span>LinkedIn</span>
+      <svg width="24" height="24" role="img" aria-labelledby="icon-linkedin-title">
+        <use xlink:href="./assets/icons.svg#icon-linkedin"></use>
+      </svg>
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:contacto@empresa.cl" target="_blank" 
+       class="flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-yellow-200 via-red-200 to-green-200 text-white rounded-lg hover:scale-105 transition-all">
+      <span>Email</span>
+      <svg width="24" height="24" role="img" aria-labelledby="icon-email-title">
+        <use xlink:href="./assets/icons.svg#icon-email"></use>
+      </svg>
+    </a>
+
+  </div>
+
+  <div class="mt-6">
+    
+  </div>
+</section>
+
+<footer class="bg-primary text-white py-10">
+    <div class="max-w-screen-xl mx-auto px-4">
+      <p class="text-center mb-6">
+        Consultora en temas tributarios, contables, ¡Contáctanos! 
+      </p>
+
+      <div class="flex flex-col md:flex-row justify-center items-center md:justify-between text-center md:text-left space-y-4 md:space-y-0">
+        <div>
+          <h3 class="font-semibold text-white mb-1">Contáctenos</h3>
+          <p>+56 000 000</p>
+          <p>contacto@empresa.cl</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white mb-1">Dirección</h3>
+          <p>Av. blabla, Oficina 701</p>
+          <p>Santiago, Chile</p>
+        </div>
+      </div>
+
+      <p class="text-center text-gray-400 mt-6 text-sm">
+        ©2025 EMPRESA Spa. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
